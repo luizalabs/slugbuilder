@@ -9,7 +9,7 @@ fi
 
 echo "Generate and upload the latest SLUGBUILDER image to Docker HUB"
 docker login -u "$DOCKER_USER" -p "$DOCKER_PASS"
-docker build -t "$DOCKER_REGISTRY"/"$DOCKER_IMAGE":"$TRAVIS_TAG" .
+docker build -t "$DOCKER_REGISTRY"/"$DOCKER_IMAGE":"$TRAVIS_TAG" rootfs
 docker push "$DOCKER_REGISTRY"/"$DOCKER_IMAGE":"$TRAVIS_TAG"
 
 exit 0;
