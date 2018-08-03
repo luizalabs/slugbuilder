@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.5.0] - 2018-08-03
+### Changed
+- Several buildpacks update
+
 ## [3.4.0] - 2018-06-06
 ### Changed
 - Change docker base image to `heroku:16-build`
