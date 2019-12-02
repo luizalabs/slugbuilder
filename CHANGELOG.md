@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.7.2] - 2019-12-02
+### Changed
+- Update buildpacks
+
 ## [3.7.1] - 2019-09-23
 ### Changed
 - Updated objstorage version
